@@ -1,0 +1,333 @@
+body {
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+.topbar {
+    background-color: black;
+    color: #F6D4F5;
+    text-align: center;
+}
+
+header div.container {
+    background-color: #F6D4F5;
+}
+
+nav a:hover {
+    background-color: rgb(53, 50, 50);
+    color: white;
+    transition: all 0.1s ease 0s;
+}
+
+main.container {
+    background-color: transparent;
+}
+
+header div.container {
+    width: 100%;
+}
+
+.right {
+    padding-right: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    font-size: 200%;
+    padding-left: 5px;
+}
+
+i.fa.fa-shopping-cart.right {
+    color: #E3ADE1;
+}
+
+p.left {
+    display: flex;
+    flex-direction: column;
+    font-family: "Victor Mono", monospace;
+}
+
+p.left>span {
+    text-align: right;
+    font-weight: bold;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 30px;
+    text-decoration: none;
+    color: grey;
+    flex-basis: 20%;
+}
+
+main.container {
+    width: 75%;
+    margin: auto;
+    max-width: 1500px;
+}
+
+h3 {
+    font-family: "Homemade Apple", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+a {
+    text-transform: uppercase
+}
+
+main section h2 {
+    font-weight: bold;
+}
+
+main section h2 span {
+    font-weight: normal;
+}
+
+main section article h2 {
+    text-align: left;
+    ;
+}
+
+.escarpin {
+    display: inline-block;
+    flex-direction: row;
+    padding: 30px;
+    transition: 0.2s ease;
+}
+
+#slider {
+    border: 2px solid lightgray;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,
+            0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#slider>h2 {
+    background-color: #F6D4F5;
+    position: absolute;
+    padding: 10px;
+    opacity: 80%;
+}
+
+#slider>img {
+    width: 100%;
+}
+
+#select {
+    border: 2px solid lightgrey;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #0000001a;
+}
+
+#select>h1 {
+    text-align: left;
+    margin: 30px;
+}
+
+.escarpin img {
+    max-width: 150px;
+    height: 150px;
+}
+
+#select:hover .escarpin:hover {
+    transform: scale(120%);
+    opacity: 100%
+}
+
+#select:hover .escarpin {
+    opacity: 50%;
+}
+
+section#new {
+    text-align: center;
+}
+
+#news {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+article#new {
+    background-color: white;
+}
+
+#new {
+    border: 2px solid lightgray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#new>h2 {
+    background-color: #EA34C4;
+    color: white;
+}
+
+#new>small {
+    text-align: center;
+}
+
+article#crush {
+    background-color: white;
+}
+
+#crush {
+    border: 2px solid lightgray;
+    box-shadow: 0 0 5px rgba(0,
+            0, 0, 0.1);
+    text-align: center;
+}
+
+#crush>h2 {
+    background-color: #90BE44;
+    color: white;
+}
+
+article#best {
+    background-color: white;
+}
+
+#best>h2 {
+    background-color: #0398B0;
+    color: white;
+}
+
+#best {
+    border: 2px solid lightgray;
+    box-shadow: 0 0 5px rgba(0,
+            0, 0, 0.1);
+    text-align: center;
+}
+
+section article h2 {
+    margin: 20px;
+    padding-left: 10px;
+}
+
+section#select {
+    padding: 20px;
+}
+
+#select {
+    text-align: center;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: "Victor Mono", monospace;
+    font-weight: bold;
+}
+
+section#info {
+    background-color: #E3ADE1;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+}
+
+section#info>article {
+    display: grid;
+
+    text-align: center;
+}
+
+footer {
+    background-color: #F6D4F5;
+}
+
+#bottombar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+h2,
+li {
+    font-family: "Victor Mono", monospace;
+    color: black;
+    text-align: center;
+}
+
+#new>small,
+#best>small,
+#crush>small,
+#select>h1 {
+    font-family: "Victor Mono", monospace;
+}
+
+h3 {
+    font-family: "Courgette";
+}
+
+#cart {
+    float: right;
+}
+
+footer>section>article:hover {
+    transition: 0.5s ease;
+    color: white;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #EA34C4;
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+
+    body {
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #slider>h2 {
+        position: relative;
+        margin: 10px;
+    }
+
+    #cart {
+        display: none;
+    }
+
+    #news {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header div img {
+        text-align: center;
+    }
+
+    #info,
+    #bottombar,
+    .escarpin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
